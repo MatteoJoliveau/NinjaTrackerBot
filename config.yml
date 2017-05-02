@@ -1,0 +1,8 @@
+telegram:
+  token: 347530188:AAHlHhb2GT2VxM-vIQhtVbFO_bSmnS0jSqU
+  username: ninjatracker_bot
+
+redis:
+  db: 1
+  host: "vault101.ga"
+  port: 16379

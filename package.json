@@ -4,6 +4,7 @@
   "description": "A bot to track ninjas",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "mocha"
   },
   "repository": {
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/MatteoJoliveau/NinjaTrackerBot/issues"
   },
-  "homepage": "https://github.com/MatteoJoliveau/NinjaTrackerBot#readme"
+  "homepage": "https://github.com/MatteoJoliveau/NinjaTrackerBot#readme",
+  "dependencies": {
+    "js-yaml": "^3.8.3",
+    "telegraf": "^3.6.7",
+    "telegraf-session-redis": "^4.2.0",
+    "telegraf-wit": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.3.0"
+  }
 }

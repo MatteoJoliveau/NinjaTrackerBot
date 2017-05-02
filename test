@@ -1,0 +1,20 @@
+++ pwd
++ APP_HOME=/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli
++ echo APP_HOME=/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli
+APP_HOME=/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli
+++ uname -s
++ OS=MSYS_NT-10.0
++ PID=
+++ whoami
++ PROCESS_OWNER=Matteo
++ CLASSPATH='.;/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/lib/*;/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/config'
++ echo 'Using JDK at C:\Program Files\Java\jdk1.8.0_121'
+Using JDK at C:\Program Files\Java\jdk1.8.0_121
++ echo '.;/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/lib/*;/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/config'
+.;/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/lib/*;/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/config
++ cd /c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli
++ JAVA_OPTS='-Xmx512m  -Dlogback.configurationFile={/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli}/conf/logback.xml'
++ START_CLASS=it.infocert.eigor.cli.Eigor
++ JAVA_ARGS='       '
++ java -cp '/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/lib/*:/c/Users/Matteo/Software/eigor/eigor-cli/target/eigor-cli/conf' it.infocert.eigor.cli.Eigor
+Errore: impossibile trovare o caricare la classe principale it.infocert.eigor.cli.Eigor
